@@ -1,12 +1,11 @@
 html,body {
-    /* "stable" keyword, with optional modifier */
     scrollbar-gutter: stable;
 }
 
 ::-webkit-scrollbar { width: 0; }
 
 body {
-    min-width: 1500px;
+    min-width: 1920px;
     background-color:rgb(0, 0, 0);
 
     &.lock {

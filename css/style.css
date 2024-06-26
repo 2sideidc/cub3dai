@@ -213,7 +213,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 html, body {
-  /* "stable" keyword, with optional modifier */
   scrollbar-gutter: stable;
 }
 
@@ -222,7 +221,7 @@ html, body {
 }
 
 body {
-  min-width: 1500px;
+  min-width: 1920px;
   background-color: rgb(0, 0, 0);
 }
 body.lock {
