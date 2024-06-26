@@ -1,0 +1,28 @@
+.footer {
+    background-color: #fffce1;
+    // padding: 100px 0px;
+    // .footer__container
+    
+
+    &__container {
+        height: 100px;
+        display: flex;
+        justify-content: flex-start;
+        align-items:center;
+    }
+
+    // .footer__body
+
+    &__body {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        span{
+            color:rgb(0, 0, 0);
+            font-size: 22px;
+            font-family:'Siegra';
+        }
+    }
+}
+
+

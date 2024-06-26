@@ -1,0 +1,39 @@
+.main {
+
+    // .main__vs
+
+    &__vs {
+        // display: flex;
+        // justify-content: center;
+        
+        img{
+            border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+            // height: 100vh;
+            // object-fit: cover;
+            max-width: 100%;
+        }
+    }
+}
+// .main-vs {
+
+//     // .main-vs__ai
+
+//     &__ai {
+//         position: absolute;
+//         top: 20px;
+//         left: 50px;
+//         z-index: 1;
+//     }
+
+//     // .main-vs__my
+
+//     &__my {
+//         position: absolute;
+//         top: 20px;
+//         right: 50px;
+//         z-index: 1;
+//     }
+// }
+img-comparison-slider{
+    width: 100%;
+}

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/img-comparison-slider@8/dist/styles.css" />
+    <title>Project 3D AI</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <span class="progressbar"></span>
+        <div class="loader-wrapper">
+            <video autoplay muted src="video/preloader.mp4"></video>
+        </div>
+        <header class="header">
+            <div class="header__container">
+                <a href="#main" class="header__logo">
+                    <img src="image/svg/logo.svg" alt="logo">
+                </a>
+                <div class="header__title">
+                    <h2>Cub3d</h2>
+                </div>
+                <nav class="header__menu">
+                    <ul class="menu__list">
+                        <li class="menu__item"><a href="#main" class="menu__item-link">Home</a></li>
+                        <li class="menu__item"><a href="#about" class="menu__item-link">About 3D</a></li>
+                        <li class="menu__item"><a href="#contact" class="menu__item-link">Contact US</a></li>
+                        <button class="menu__btn"><a href="image/poster_SAIT.png" download="PosterTeamCUB3D.png">Download Poster</a></button>
+                    </ul>
+                </nav>
+                <div class="header__icon">
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </header>
+        <main id="main" class="main">
+            <section class="main__bot">
+                <video autoplay muted loop src="video/bot.mp4"></video>
+                <div class="bot__container">
+                    <h1 class="future">We are the <span class="siegra">future</span></h1>
+                    <span class="plus">+ + <br> <span>scroll</span></span>
+                    <span id="output"></span>
+                    <div class="audio-container">
+                        <audio autoplay loop src="audio/Luminous Radiations.mp3"></audio>
+                        <div class="audio-icon audio-icon-toggle">
+                            <div class="audio-icon-nib"></div>
+                            <div class="audio-icon-nib"></div>
+                            <div class="audio-icon-nib"></div>
+                            <div class="audio-icon-nib"></div>
+                            <div class="audio-icon-nib"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="about" class="main__info">
+                <div class="info__number">
+                    <span>01</span>
+                    <span class="hito">powered by hitokirishi</span>
+                </div>
+                <div class="abstract">
+                    <img src="image/svg/planet.svg" alt="">
+                </div>
+                <div class="info__container">
+                    <div class="info__content">
+                        <h1 class="content__title split">How often have you heard that artificial intelligence will soon replace or has already replaced humans in a particular field of work?</h1>
+                        <div class="content__text sub">
+                            <p>In my opinion, the people who 'throw in' this kind of information fall into two categories. First, there are low-skilled workers who could indeed be replaced by artificial intelligence. They were doing relatively light or automatic work, so the company, having seen the development of AI for the sake of economy and expediency, fired such people.</p>
+                            <p>The second is the category of employees who have no connection with the digital industry, who have always worked and will always work with their hands. People who believe that their work is 'real', and that people who work on computers are idlers.</p>
+                            <p>Having seen the first category's 'stuff' on social media, the second category also picked it up, because 'I told you son, why do you need those computers, Internet sites, you'd be better off working with me at the factory. That is, at least one (very dubious) argument for their claims about the right job finally appeared.</p>
+                        </div>
+                    </div>
+                    <div class="info__media">
+                        <video autoplay loop muted src="video/human.mp4"></video>
+                    </div>
+                </div>
+            </section>
+            <section class="main__vs">
+                <img-comparison-slider>
+                    <img slot="first" src="image/ai tree.png" />
+                    <img slot="second" src="image/my_tree.png" />
+                </img-comparison-slider>
+            </section>
+            <section class="main__info">
+                <div class="info__number">
+                    <span>02</span>
+                    <span>powered by hitokirishi</span>
+                </div>
+                <div class="info__container inverse">
+                    <div class="info__content">
+                        <h1 class="content__title split">Artificial intelligence in the 3D industry.</h1>
+                        <div class="content__text sub">
+                            <p>But I won't talk about all areas, here we will talk specifically about the 3D industry. In general, AI has not affected the labor market in the 3D industry, yes, there are neurons that can help you in the process of work (we will talk about them below), but I think that the ability to make the right requests.</p>
+                            <p>Everyone has had that experience of trying to write a CGPT query correctly over and over again and spending 2 hours on it, and if you tried to figure it out yourself, looked it up on YouTube, on forums, or just coldly analyzed it, I would have spent half an hour.</p>
+                            <p>After trying many different neurons, you, like me, will get the impression that they do superficial work, and if you want to achieve a cool effect from such use, you need to bother a lot, so in 99% of cases you will correct manually. More often than not, a fully completed work by yourself is better and faster, not to mention the fact that a self-made project is more flexible, because you can easily change or adjust anything.</p>
+                        </div>
+                    </div>
+                    <div class="info__media">
+                        <video autoplay loop muted src="video/circle.mp4"></video>
+                    </div>
+                </div>
+            </section>
+            <section class="main__landscape">
+                <marquee class="landscape__marquee-top" scrollamount="20" direction="left">improve yourself</marquee>
+                <marquee class="landscape__marquee-bot" scrollamount="20" direction="right">improve yourself</marquee>
+                <video id="myVideo" muted loop src="video/landscape.mp4"></video>
+            </section>
+            <section class="main__info">
+                <div class="info__number">
+                    <span>03</span>
+                    <span>powered by hitokirishi</span>
+                </div>
+                <div class="abstract">
+                    <img src="image/svg/planet.svg" alt="">
+                </div>
+                <div class="info__container">
+                    <div class="info__content">
+                        <h1 class="content__title split">Why artificial intelligence cannot replace 3D designers.</h1>
+                        <div class="content__text sub">
+                            <p>1. The first and most noticeable difference is optimization.</p>
+                            <p>Comparing the work of artificial intelligence and humans, you will notice a big difference in retipology (correct use of polygons). Yes, there may be special AIs that make a relatively acceptable retopology, but if we want to achieve the best optimization, we have to 'draw' polygons manually. Also, since the AI does not understand the position of objects in the scene, it cannot remove polygons or reduce their number where necessary. Reducing the resolution of textures depending on the camera position, replacing meshes with 'empty' meshes, using PNGs in the background instead of decorative objects. In general, this greatly simplifies the load on the hardware. This is just the tip of the iceberg, but this is not a lecture on optimization, so let's move on.</p>
+                            <p>2. Texture and lighting palette and composition.</p>
+                            <p>So far, I have not met a single AI that could make a full-fledged scene with good lighting and keyframe position, not to mention the correct UV scan with appropriate textures. Since the customers of any business are people, only people will evaluate the overall design of any project. Only a professional will be able to harmoniously select colors and post-processing that will surprise the eye.</p>
+                        </div>
+                    </div>
+                    <div class="info__media">
+                        <model-viewer src="models/Abstract.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" autoplay camera-orbit="0deg 90deg 7m" field-of-view="6deg" camera-target="0m 0m 0m" disable-zoom>
+                        </model-viewer>
+                    </div>
+                </div>
+            </section>
+            <section id="contact" class="main__contact-us">
+                <div class="contact-us__container">
+                    <h1 class="contact-us__title split">Contact us</h1>
+                    <div class="contact-us__content">
+                        <div class="contact-us__column">
+                            <div class="contact-us__img">
+                                <img src="image/avatar (1).png" alt="">
+                            </div>
+                            <span class="contact-us__name">Valentyn Kolesnyk</span>
+                            <span class="contact-us__description">Frontend Developer</span>
+                            <div class="contact-us__icon">
+                                <a target="_blank" href="https://github.com/2sideidc"><img src="image/svg/github.svg" alt="github"></a>
+                                <a target="_blank" href="https://www.linkedin.com/in/valentyn-kolesnyk-197042305/"><img src="image/svg/linkedin.svg" alt="ld"></a>
+                                <a target="_blank" href="https://t.me/ldwba7139"><img src="image/svg/telegram.svg" alt="tg"></a>
+                            </div>
+                        </div>
+                        <div class="contact-us__column">
+                            <div class="contact-us__img">
+                                <img src="image/avatar (3).png" alt="">
+                            </div>
+                            <span class="contact-us__name">Hanna Shport</span>
+                            <span class="contact-us__description">Designer</span>
+                            <div class="contact-us__icon">
+                                <a target="_blank" href="https://github.com/annashport"><img src="image/svg/github.svg" alt=""></a>
+                                <a target="_blank" href="https://www.linkedin.com/in/anna-shport-74a085272/"><img src="image/svg/linkedin.svg" alt=""></a>
+                                <a target="_blank" href="https://t.me/hlisomi"><img src="image/svg/telegram.svg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="contact-us__column">
+                            <div class="contact-us__img">
+                                <img src="image/avatar (2).png" alt="">
+                            </div>
+                            <span class="contact-us__name">Mykola Rybak</span>
+                            <span class="contact-us__description">3D Artist</span>
+                            <div class="contact-us__icon">
+                                <a target="_blank" href="https://hitokirishi.artstation.com/"><img src="image/svg/icons8-artstation.svg" alt=""></a>
+                                <a target="_blank" href="https://www.linkedin.com/in/mykola-rybak-145150305/"><img src="image/svg/linkedin.svg" alt=""></a>
+                                <a target="_blank" href="https://t.me/Leloushe"><img src="image/svg/telegram.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer id="footer" class="footer">
+            <div class="footer__container">
+                <div class="footer__body">
+                    <span>©2024 CUB3D, <a target="_blank" href="https://sait.vntu.edu.ua/uk/" class="link-vntu">CAIT</a></span>
+                    <span>by 2sideidc, hlisomi and hitokirishi</span>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/kursor@0.0.14/dist/kursor.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@latest/bundled/lenis.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/split-type"></script>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script type="module" defer src="js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/img-comparison-slider@8/dist/index.js"></script>
+    <script>
+        VANTA.NET({
+            el: "#contact",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            color: 0xffffff,
+            backgroundColor: 0x0,
+            spacing: 18.00
+        })
+    </script>
+</body>
+
+</html>
