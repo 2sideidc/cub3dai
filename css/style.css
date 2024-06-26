@@ -4,6 +4,7 @@
 @import url(https://fonts.googleapis.com/css?family=IBM+Plex+Mono:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic);
 @import url(https://fonts.googleapis.com/css?family=Gothic+A1:100,200,300,regular,500,600,700,800,900);
+@import url("https://fonts.cdnfonts.com/css/siegra");
 * {
   padding: 0;
   margin: 0;
@@ -102,7 +103,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 40px;
 }
 .header__title {
-  font-family: "siegraregular";
+  font-family: "Siegra", sans-serif;
   font-size: 22px;
 }
 .header__menu {
@@ -211,12 +212,6 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
 }
 
-@font-face {
-  font-family: "siegraregular";
-  src: url("/fonts/siegra-webfont.woff2") format("woff2"), url("/fonts/siegra-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
 html, body {
   /* "stable" keyword, with optional modifier */
   scrollbar-gutter: stable;
@@ -384,7 +379,7 @@ model-viewer {
   font-family: Orbitron;
 }
 .bot__container h1 span {
-  font-family: "siegraregular";
+  font-family: "Siegra", sans-serif;
   font-size: 78px;
   color: #ffffff;
 }
@@ -439,7 +434,7 @@ model-viewer {
 .info__number span {
   color: #fff;
   font-size: 30px;
-  font-family: "siegraregular";
+  font-family: "Siegra", sans-serif;
 }
 .info__content {
   display: -webkit-box;
@@ -546,7 +541,7 @@ model-viewer {
 .footer__body span {
   color: rgb(0, 0, 0);
   font-size: 22px;
-  font-family: "siegraregular";
+  font-family: "Siegra", sans-serif;
 }
 
 .main__contact-us {
@@ -572,7 +567,7 @@ model-viewer {
   font-weight: 500;
   color: #fffce1;
   line-height: 1.2em;
-  font-family: "siegraregular";
+  font-family: "Siegra", sans-serif;
 }
 .contact-us__title:not(last-child) {
   margin-bottom: 122px;
@@ -784,7 +779,7 @@ img-comparison-slider {
   position: relative;
   padding: 100px 0px;
   font-size: 70px;
-  font-family: "siegraregular";
+  font-family: "Siegra", sans-serif;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 .main__landscape video {
