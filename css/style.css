@@ -102,7 +102,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 40px;
 }
 .header__title {
-  font-family: "Siegra";
+  font-family: "siegraregular";
   font-size: 22px;
 }
 .header__menu {
@@ -212,11 +212,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @font-face {
-  font-family: "Siegra";
-  src: url("/fonts/Siegra-Regular.woff2") format("woff2"), url("/fonts/Siegra-Regular.woff") format("woff");
+  font-family: "siegraregular";
+  src: url("/fonts/siegra-webfont.woff2") format("woff2"), url("/fonts/siegra-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
 }
 html, body {
   /* "stable" keyword, with optional modifier */
@@ -385,7 +384,7 @@ model-viewer {
   font-family: Orbitron;
 }
 .bot__container h1 span {
-  font-family: "Siegra";
+  font-family: "siegraregular";
   font-size: 78px;
   color: #ffffff;
 }
@@ -440,7 +439,7 @@ model-viewer {
 .info__number span {
   color: #fff;
   font-size: 30px;
-  font-family: "Siegra";
+  font-family: "siegraregular";
 }
 .info__content {
   display: -webkit-box;
@@ -547,7 +546,7 @@ model-viewer {
 .footer__body span {
   color: rgb(0, 0, 0);
   font-size: 22px;
-  font-family: "Siegra";
+  font-family: "siegraregular";
 }
 
 .main__contact-us {
@@ -573,7 +572,7 @@ model-viewer {
   font-weight: 500;
   color: #fffce1;
   line-height: 1.2em;
-  font-family: "Siegra";
+  font-family: "siegraregular";
 }
 .contact-us__title:not(last-child) {
   margin-bottom: 122px;
@@ -785,7 +784,7 @@ img-comparison-slider {
   position: relative;
   padding: 100px 0px;
   font-size: 70px;
-  font-family: "Siegra";
+  font-family: "siegraregular";
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 .main__landscape video {
