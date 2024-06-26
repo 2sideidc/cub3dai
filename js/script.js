@@ -173,11 +173,11 @@ ScrollReveal({
 })
 ScrollReveal().reveal('.future', {delay:6500, origin: 'left', reset:false});
 ScrollReveal().reveal('.audio-container', {delay:6500, origin: 'right', reset:false});
-ScrollReveal().reveal('.info__media', {delay:1000, origin: 'bottom', distance: '100px'});
+ScrollReveal().reveal('.info__media', {delay:1000, origin: 'bottom', distance: '100px', reset: false});
 ScrollReveal().reveal('.info__number', {delay:500, origin: 'left', reset: false});
 ScrollReveal().reveal('.header', {delay:6500, origin: 'top', reset: false});
-ScrollReveal().reveal('.contact-us__content', {delay:500, origin: 'bottom'});
-ScrollReveal().reveal('.main__vs', {delay:500, origin: 'left'});
+ScrollReveal().reveal('.contact-us__content', {delay:500, origin: 'bottom', reset: false});
+ScrollReveal().reveal('.main__vs', {delay:500, origin: 'left', reset: false});
 
 // play video
 document.addEventListener('DOMContentLoaded', function () {
