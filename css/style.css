@@ -221,7 +221,6 @@ html, body {
 }
 
 body {
-  min-width: 1820px;
   background-color: rgb(0, 0, 0);
 }
 body.lock {
